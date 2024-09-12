@@ -18,4 +18,5 @@ jobs:
       - run: node index.js
         env:
           DUOLINGO_JWT: ${{ secrets.DUOLINGO_JWT }}
-          LESSONS: 132
+          LESSONS: 854
+        
